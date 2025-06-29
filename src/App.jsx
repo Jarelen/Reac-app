@@ -4,6 +4,9 @@ import './App.css'
 //import Add from './components/Add' borrado en la tercera parte de la clase
 //import Menu from './components/Menu' borrado en la tercera parte de la clase
 import Home from './pages/Home'
+
+
+
 import Owner from './pages/Owner'
 import Navbar from './components/Navbar'
 import {Routes, Route} from 'react-router-dom'
@@ -15,6 +18,7 @@ function App() {
          <Route path="/" element={<Home/>}/>
          <Route path="/owner" element={<Owner/>}/>
       </Routes>
+      
       </>
    /*<div>
       <h1>Hola, este es un archivo reac</h1>
